@@ -1,7 +1,11 @@
 aid: sandisk
-url: https://raw.githubusercontent.com/api-evangelist/sandisk/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/sandisk/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.sandisk.com
+description: >-
+  SanDisk was an American manufacturer of flash memory products including memory cards,
+  USB flash drives, and solid-state drives before being acquired by Western Digital.
