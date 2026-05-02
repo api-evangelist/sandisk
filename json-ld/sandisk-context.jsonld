@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "sandisk": "https://api-evangelist.github.io/sandisk/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "SanDisk": "schema:Brand",
+    "StorageDevice": "schema:Product",
+    "SDK": "schema:SoftwareApplication",
+    "DeveloperPortal": "schema:WebSite",
+
+    "iXpand": {
+      "@id": "sandisk:iXpand",
+      "@type": "schema:Product",
+      "schema:brand": { "@id": "sandisk:SanDisk" },
+      "schema:description": "SanDisk Flash Drives for iOS devices via Lightning connector"
+    },
+
+    "iXpandSDK": {
+      "@id": "sandisk:iXpandSDK",
+      "@type": "schema:SoftwareApplication",
+      "schema:applicationCategory": "DeveloperApplication",
+      "schema:operatingSystem": "iOS",
+      "schema:description": "iOS SDK for integrating iXpand Flash Drive access into third-party apps"
+    },
+
+    "HQMESDK": {
+      "@id": "sandisk:HQMESDK",
+      "@type": "schema:SoftwareApplication",
+      "schema:applicationCategory": "DeveloperApplication",
+      "schema:operatingSystem": "Android",
+      "schema:description": "Android SDK based on IEEE P2200/D2 for media storage and retrieval"
+    },
+
+    "FileSystemAPI": {
+      "@id": "sandisk:FileSystemAPI",
+      "@type": "schema:WebAPI",
+      "schema:description": "APIs for reading, writing, and managing files on iXpand storage"
+    },
+
+    "SystemAPI": {
+      "@id": "sandisk:SystemAPI",
+      "@type": "schema:WebAPI",
+      "schema:description": "Administrative APIs for iXpand device metadata and configuration"
+    },
+
+    "productPlanId": {
+      "@id": "sandisk:productPlanId",
+      "@type": "xsd:string"
+    },
+
+    "storageCapacity": {
+      "@id": "schema:storageSize",
+      "@type": "xsd:string"
+    },
+
+    "interfaceType": {
+      "@id": "schema:additionalProperty",
+      "@type": "xsd:string"
+    }
+  }
+}

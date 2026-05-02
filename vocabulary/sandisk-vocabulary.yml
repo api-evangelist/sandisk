@@ -1,0 +1,111 @@
+vocabulary:
+  provider: SanDisk
+  description: >-
+    Domain vocabulary for SanDisk flash memory storage products and developer SDKs,
+    covering mobile storage integration, flash memory types, and storage management concepts.
+  created: '2026-05-02'
+  modified: '2026-05-02'
+  terms:
+    - term: iXpand
+      definition: >-
+        SanDisk's line of Flash Drives designed for iOS devices, connecting
+        via the Lightning interface to provide expanded storage for iPhone and iPad.
+      tags:
+        - Product
+        - iOS
+        - Storage
+
+    - term: iXpand SDK
+      definition: >-
+        Software Development Kit for integrating iXpand Flash Drive access
+        into third-party iOS applications. Provides File System and System APIs.
+      tags:
+        - SDK
+        - iOS
+        - Developer
+
+    - term: HQME
+      definition: >-
+        Home Quality Media Experience — an IEEE P2200/D2 draft standard for
+        content storage and retrieval on portable storage devices.
+      tags:
+        - Standard
+        - Media
+        - Protocol
+
+    - term: File System API
+      definition: >-
+        A set of APIs within the iXpand SDK that provide familiar filesystem
+        operations (read, write, list, delete) to iXpand device storage.
+      tags:
+        - API
+        - Storage
+        - Filesystem
+
+    - term: System API
+      definition: >-
+        A set of APIs within the iXpand SDK that provide administrative
+        access to iXpand device metadata and configuration.
+      tags:
+        - API
+        - Administration
+        - Device
+
+    - term: Product Plan ID
+      definition: >-
+        A unique identifier (PPID) assigned by Western Digital to iOS apps
+        that have been validated and approved for iXpand SDK integration.
+        Required when submitting apps to the Apple App Store.
+      tags:
+        - Developer
+        - Certification
+        - iOS
+
+    - term: Flash Memory
+      definition: >-
+        Non-volatile semiconductor memory that can be electrically erased and
+        reprogrammed. SanDisk specializes in NAND flash memory for consumer
+        and enterprise storage products.
+      tags:
+        - Technology
+        - Hardware
+        - Memory
+
+    - term: microSD
+      definition: >-
+        A small form factor SD card format widely used in mobile devices,
+        cameras, and embedded systems. SanDisk manufactures microSD cards
+        up to extreme capacity and speed ratings.
+      tags:
+        - Product
+        - Mobile
+        - Memory Card
+
+    - term: SSD
+      definition: >-
+        Solid-State Drive — a storage device using flash memory chips rather
+        than rotating magnetic disks. SanDisk produces SSDs for consumer,
+        professional, and enterprise markets.
+      tags:
+        - Product
+        - Storage
+        - Enterprise
+
+    - term: My Cloud Home
+      definition: >-
+        Western Digital's personal cloud storage platform with RESTful APIs
+        for building off-device applications that access cloud-synced storage.
+      tags:
+        - Cloud
+        - Platform
+        - API
+
+    - term: Western Digital Developer Portal
+      definition: >-
+        The unified developer portal for Western Digital and SanDisk SDKs,
+        available at developer.westerndigital.com. Requires a free account
+        to access SDK binaries and libraries.
+      tags:
+        - Developer
+        - Portal
+        - Resources
