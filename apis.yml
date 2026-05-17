@@ -43,7 +43,7 @@ apis:
     properties:
       - type: Documentation
         url: https://developer.westerndigital.com/develop/sandisk/ixpand-sdk-home-main.html
-      - type: Getting Started
+      - type: GettingStarted
         url: https://developer.westerndigital.com/develop/sandisk/get-the-sdk.html
       - type: Developer Portal
         url: https://developer.sandisk.com
@@ -73,9 +73,9 @@ common:
     url: https://www.sandisk.com
   - type: Developer Portal
     url: https://developer.westerndigital.com
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/SanDisk-Open-Source
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/westerndigitalcorporation
   - type: Support
     url: https://support-en.sandisk.com
