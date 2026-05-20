@@ -69,6 +69,8 @@ apis:
       - type: Documentation
         url: https://github.com/HQME-developer/SanDisk-HQME-SDK
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/sandisk
   - type: Website
     url: https://www.sandisk.com
   - type: Developer Portal
