@@ -46,7 +46,7 @@ apis:
         url: https://developer.westerndigital.com/develop/sandisk/ixpand-sdk-home-main.html
       - type: GettingStarted
         url: https://developer.westerndigital.com/develop/sandisk/get-the-sdk.html
-      - type: Developer Portal
+      - type: DeveloperPortal
         url: https://developer.sandisk.com
   - aid: sandisk:sandisk-hqme-sdk
     name: SanDisk HQME SDK
@@ -74,7 +74,7 @@ common:
     url: https://www.linkedin.com/company/sandisk
   - type: Website
     url: https://www.sandisk.com
-  - type: Developer Portal
+  - type: DeveloperPortal
     url: https://developer.westerndigital.com
   - type: GitHubOrganization
     url: https://github.com/SanDisk-Open-Source
