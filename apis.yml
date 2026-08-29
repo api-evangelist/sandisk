@@ -9,6 +9,17 @@ description: >-
   Lightning interface. Western Digital also maintains the My Cloud Home platform
   with RESTful APIs for building off-device cloud storage applications.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
@@ -82,6 +93,8 @@ apis:
       - type: Documentation
         url: https://github.com/HQME-developer/SanDisk-HQME-SDK
 common:
+  - type: IssueTracker
+    url: https://github.com/HQME-developer/SanDisk-HQME-SDK/issues
   - type: DomainSecurity
     url: security/sandisk-domain-security.yml
   - type: LinkedIn
