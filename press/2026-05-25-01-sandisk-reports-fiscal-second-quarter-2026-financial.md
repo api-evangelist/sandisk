@@ -1,7 +1,9 @@
 ---
 title: Sandisk Reports Fiscal Second Quarter 2026 Financial ...
 url: https://investor.sandisk.com/news-releases/news-release-details/sandisk-reports-fiscal-second-quarter-2026-financial-results
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"SanDisk" press release artificial intelligence'
 position: 1
 source: serpapi-google

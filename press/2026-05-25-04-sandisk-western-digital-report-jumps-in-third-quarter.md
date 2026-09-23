@@ -1,7 +1,9 @@
 ---
 title: Sandisk, Western Digital Report Jumps in Third-Quarter ...
 url: https://www.wsj.com/business/earnings/sandisk-western-digital-report-jumps-in-third-quarter-profit-on-ai-data-storage-demand-fa592c02
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"SanDisk" press release artificial intelligence'
 position: 4
 source: serpapi-google
