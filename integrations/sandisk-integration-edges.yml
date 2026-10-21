@@ -80,6 +80,43 @@ edges:
       P856 not contradicting (Kin 2026-10-20 decision 2)
   detected_by: sweep-apple-mfi-ecosystem.py
   first_seen: '2026-10-21'
+- partner_name: Open Compute Project marketplace
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.opencompute.org/marketplace/it-infrastructure/sandisk-dc-sn861/
+  category: data-center hardware recognition
+  contract_reference:
+    register: Open Compute Project marketplace (opencompute.org/products; /wp-json/wp/v2/marketplace + /companies)
+    standard: Open Compute Project
+    spec_file: null
+    role: ocp-recognised-product-vendor
+    registered_name: Sandisk
+    register_id: https://www.opencompute.org/members/sandisk/
+    matched_domain: sandisk.com
+    matched_by: domain
+    listings: 1
+    recognised_listings: 1
+    products_sample:
+    - SanDisk DC SN861
+    signal_note: certified_products = one entry per product type (OCP recognition + most specific marketplace segment)
+      among OCP-recognised listings; unrecognised listings are listing alone (participation). The REST data marks
+      no listing archived, so lapsed is false. Listing counts are context, never counted
+    detected_by: sweep-semiconductor-consortia.py
+    detected: '2026-10-21'
+    certified_products:
+    - product: 'OCP Accepted: Solid State Drives (SSD)'
+      recognition: OCP Accepted
+      product_type: Solid State Drives (SSD)
+      lapsed: false
+      listings: 1
+      newest_listing: '2024-12-09'
+  detected_by: sweep-semiconductor-consortia.py
+  first_seen: '2026-10-21'
+  partner_tier: OCP Accepted
 generated: '2026-10-15'
 method: searched
 source:
@@ -92,3 +129,10 @@ checked:
 - https://csa-iot.org/csa-iot_products/
 - https://mfi.apple.com/en/account/accessory-search
 - https://partnernetwork.apple.com/
+- https://riscv.landscape2.io/data/full.json
+- https://riscv.org/members/
+- https://www.nist.gov/chips/chips-program-office-awards
+- https://www.nist.gov/chips/chips-rd-office-awards
+- https://www.opencompute.org/products
+- https://www.opencompute.org/wp-json/wp/v2/companies
+- https://www.opencompute.org/wp-json/wp/v2/marketplace
